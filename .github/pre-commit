@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+echo "Running pre-commit checks..."
+echo "To bypass this check, add '--no-verify' to your commit command"
+
+# Run code syntax checks.
+sh .github/codesniffer.sh
+
+# Run CSS/SCSS linting
+sh .github/stylelint.sh
+
+# Run accessibility checks.
+sh .github/lighthouse.sh
