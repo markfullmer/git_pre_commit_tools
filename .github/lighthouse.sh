@@ -4,7 +4,7 @@
 # LIGHTHOUSE, HOST_NAME, MINIMUM_SCORE, and PAGES variables.
 # See example.config.sh
 source "${BASH_SOURCE[0]%/*}/config.sh"
-
+echo
 if [ ! -f $LIGHTHOUSE ];
   then
     echo "WARNING: Lighthouse executable not found. You probably need to run npm install -g lighthouse"
@@ -24,6 +24,6 @@ for PAGE in "${PAGES[@]}"; do
   else
     echo "Passed with a score of " $SCORE
   fi
+  echo
 done
-
 e=$?
