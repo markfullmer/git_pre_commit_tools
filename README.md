@@ -1,3 +1,4 @@
+<img src="https://raw.githubusercontent.com/markfullmer/git_pre_commit_tools/master/pre-commit-tools-screenshot.png"  alt="Screenshot of command line pre-commit checking" />
 # Git `pre-commit` Tools
 These tools are for you if:
 - You manage code using Git, and use Github issues or pull requests
