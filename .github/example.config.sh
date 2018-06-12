@@ -9,7 +9,7 @@ RULESET=~/.composer/vendor/drupal/coder/coder_sniffer/Drupal/ruleset.xml
 STYLELINTER=/usr/local/bin/stylelint
 
 # The absolute path to the Lighthouse executable. If globally installed, you can simply use "lighthouse"
-# It may also be installed locally (e.g., /profiles/utexas/themes/forty_acres/node_modules/.bin/lighthouse)
+# It may also be installed locally (e.g., /DOCROOT/node_modules/.bin/lighthouse)
 # To install lighthouse, run "npm install -g lighthouse"
 LIGHTHOUSE="/usr/local/bin/lighthouse"
 # The baseline allowed accessibility score
