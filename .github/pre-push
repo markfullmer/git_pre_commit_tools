@@ -1,0 +1,21 @@
+# Simple git pre-push hook to construct & echo the URL to
+# a Github-style pull request. 
+# By design, this will not print anything if on the "master" branch
+
+remote="$1"
+url="$2"
+
+while read local_ref local_sha remote_ref remote_sha
+do
+  branch=${remote_ref/refs\/heads\//}
+  if [ "$branch" != "master" ]
+  then
+    remote_url=${url/:/\/}
+    remote_url=${remote_url/git@/https:\/\/}
+    remote_url="${remote_url/.git/}/compare/$branch?expand=1"
+    echo "URL to Pull Request:"
+    echo $remote_url
+  fi
+done
+
+exit 0
