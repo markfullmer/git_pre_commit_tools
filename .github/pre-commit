@@ -12,4 +12,4 @@ sh .github/codesniffer.sh
 sh .github/stylelint.sh
 
 # Run accessibility checks.
-sh .github/lighthouse.sh
+# sh .github/lighthouse.sh
