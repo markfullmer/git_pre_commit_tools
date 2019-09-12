@@ -1,0 +1,14 @@
+{
+    "name": "markfullmer/git_pre_commit_tools",
+    "description": "A handy scaffolding for code checking before commit",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Fullmer",
+            "email": "mfullmer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

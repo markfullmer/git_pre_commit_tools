@@ -1,3 +1,4 @@
 # Ignore site-specific git pre-commit config & output
 .github/config.sh
 .github/lighthouse-report.json
+/vendor/
