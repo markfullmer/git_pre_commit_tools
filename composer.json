@@ -1,7 +1,7 @@
 {
     "name": "markfullmer/git_pre_commit_tools",
     "description": "A handy scaffolding for code checking before commit",
-    "type": "library",
+    "type": "library-thing",
     "license": "MIT",
     "authors": [
         {
